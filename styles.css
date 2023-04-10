@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    min-height: 100vh;
+}
+
+.title {
+    color: darkslategray;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+}
+.recipe-item {
+    color: darkcyan;
+}
+li.recipe-item {
+    color: darkslategrey;
+}
+a:hover {
+    color: darkslategrey;
+}
